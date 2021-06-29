@@ -43,7 +43,7 @@ async def auto_message():
         [  
         Button.inline("play", b"1"), 
         Button.inline("score", b"2"),
-        Button.inline("rewards", b"3"), 
+        Button.inline("reward", b"3"), 
         Button.inline("FAQ", b"4")
         ],
         [
@@ -53,7 +53,7 @@ async def auto_message():
         # ch = await client2.get_entity(InputPeerChannel(channel_id=1437949857, access_hash=-752516512759929280))
         # print(ch)
 
-        await client2.send_message(entity=INPUT1, message='''PLAY NOW!
+        await client2.send_message(entity=INPUT1, message='''VAPERS PLAY NOW!
 
 Click on one of the buttons below to start playing for rewards
 
